@@ -106,5 +106,8 @@ CREATE TABLE `foodapp`.`orderhistory` (
     ON UPDATE NO ACTION);
 and when you run the project the home page is looks like this 
 ![image](https://github.com/user-attachments/assets/1fc7c4eb-8246-47b2-b974-2c45d1e81d5b)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/dc846792-2c42-4937-8491-5f420a85f637)
+and menu looks like this  
+![image](https://github.com/user-attachments/assets/2ddbc77e-65fd-4d9e-a967-1faaddd5b977)
+
 
