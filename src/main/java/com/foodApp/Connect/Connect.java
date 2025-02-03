@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Connect {
 	private static Connection con=null;
-	static String url="jdbc:mysql://localhost:3306/foodapp";
+	static String url="jdbc:mysql://localhost:3306/food_app";
 	static String password="root";
 	static String user="root";
 	

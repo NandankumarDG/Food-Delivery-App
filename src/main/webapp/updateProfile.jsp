@@ -209,7 +209,7 @@ body {
 <nav class="navbar">
         <div class="navbar-left">
             <img src="/foodApp/images/logo.png" alt="Company Logo" class="logo">
-            <span class="company-name">Kane Foods</span>
+            <span class="company-name">Nandan Foods</span>
         </div>
         <div class="navbar-center">
             <% User user = (User) session.getAttribute("loginUser"); %>

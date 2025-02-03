@@ -17,7 +17,8 @@ import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/viewCart")
 public class ViewCart extends HttpServlet {
-    // Changed to doGet to handle GET requests from anchor tags
+    private static final long serialVersionUID = 1L;
+	// Changed to doGet to handle GET requests from anchor tags
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       /* int userId = Integer.parseInt(request.getParameter("userId")); // Retrieve userId parameter from URL
         OrderTableImpl orderTableImpl = new OrderTableImpl();

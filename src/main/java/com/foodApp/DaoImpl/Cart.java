@@ -10,7 +10,7 @@ public class Cart {
 	public void addItem(CartItem item) {
 		
 		if(items.containsKey(item.getItemId())) {
-			CartItem cartItem = items.get(item);
+			CartItem cartItem = items.get(item.getItemId());
 			cartItem.setQuantity(cartItem.getQuantity()+item.getQuantity());
 		}else {
 			int itemId = item.getItemId();

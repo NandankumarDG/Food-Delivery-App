@@ -15,7 +15,7 @@
 <nav class="navbar">
         <div class="navbar-left">
             <img src="/foodApp/images/logo.png" alt="Company Logo" class="logo">
-            <span class="company-name">Kane Foods</span>
+            <span class="company-name">Nandan Foods</span>
         </div>
         <div class="navbar-center">
             <% User user = (User) session.getAttribute("loginUser"); %>
@@ -53,8 +53,8 @@
  
         <h2>Menu Items List</h2>
       <div class="restaurant-grid">
-      <% 	
-     List<Menu>menuList=(List<Menu>)session.getAttribute("menuList");
+      <%  
+      List<Menu>menuList=(List<Menu>)session.getAttribute("menuList");
       if(menuList!=null){
       for(Menu menu:menuList){ %>
            <div class="restaurant-card">
@@ -81,7 +81,7 @@
     <div class="footer-content">
         <div class="footer-left">
             <img src="/foodApp/images/logo.png" alt="Company Logo" class="footer-logo">
-            <p>&copy;M V Chalapathy. All rights reserved.</p>
+            <p>&copy;Nandan kumar. All rights reserved.</p>
         </div>
         <div class="footer-center">
             <h3>Contact Us</h3>

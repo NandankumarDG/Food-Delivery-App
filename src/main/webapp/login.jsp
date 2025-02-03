@@ -95,7 +95,7 @@
       <h1>Login</h1>
       <input type="email" name="email" required="required" placeholder="Email"><br>
       <input type="password" name="password" placeholder="Password"><br>
-      <input type="submit" value="SignIn" class="login">
+      <input type="submit" value="SignIn" class="login">>
       <p>Don't have an Account? <a href="register.jsp">Register</a></p>
     </form>
   </div>
